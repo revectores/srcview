@@ -1,0 +1,9 @@
+
+go io interface def, Reader/Writer/Closer/Seeker
+https://github.com/golang/go/blob/master/src/io/io.go#L55-L128
+
+go errgroup
+https://github.com/golang/sync/blob/master/errgroup/errgroup.go
+// notice that no matter Go() or TryGo() the given function f() will be executed anyway, regardless of whether other functions in the group has been failed:
+// https://github.com/golang/sync/blob/master/errgroup/errgroup.go#75
+// https://github.com/golang/sync/blob/master/errgroup/errgroup.go#104

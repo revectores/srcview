@@ -1,0 +1,35 @@
+struct redisObject
+https://github.com/redis/redis/blob/unstable/src/server.h#L901-L909
+
+robj type
+https://github.com/redis/redis/blob/unstable/src/server.h#L692-L714
+
+robj encoding
+https://github.com/redis/redis/blob/unstable/src/server.h#L878-L892
+
+
+
+
+sds header
+https://github.com/redis/redis/blob/unstable/src/sds.h#L45-L74
+
+
+
+
+t_hash e_listpack to e_ht condition
+// notice that e_listpack and e_ht are the only two encodings for t_hash, and only e_listpack => e_ht is allowed, that is, a e_ht encoded t_hash will never be converted to e_listpack even when shrinking.
+// obviously this is process is controlled by two config hash_max_listpack_entries and hash_max_listpack_value
+https://github.com/redis/redis/blob/unstable/src/t_hash.c#L37-L68
+
+config listpack
+https://github.com/redis/redis/blob/unstable/redis.conf#L1927-L1931
+
+config list compress
+// an intereseting configuration when considering list as dequce
+https://github.com/redis/redis/blob/unstable/redis.conf#L1948-L1962
+
+config cpu affinity
+https://github.com/redis/redis/blob/unstable/redis.conf#L2269-L2292
+
+
+

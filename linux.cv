@@ -1,0 +1,45 @@
+kernel data structures
+
+stddef
+https://github.com/torvalds/linux/blob/master/include/linux/stddef.h
+
+container_of
+https://github.com/torvalds/linux/blob/master/include/linux/container_of.h
+
+linux kernel linked list
+https://github.com/torvalds/linux/blob/master/include/linux/list.h
+
+linux kernel rb tree
+https://github.com/torvalds/linux/blob/master/include/linux/rbtree_types.h
+
+
+
+
+
+
+
+process managment
+
+strcut task_struct
+https://github.com/torvalds/linux/blob/master/include/linux/sched.h#L746-L1562
+
+
+
+
+
+
+
+kernel scheduing
+
+struct sched_class
+https://github.com/torvalds/linux/blob/master/kernel/sched/sched.h#L2215-L2277
+
+struct cfq_rq
+https://github.com/torvalds/linux/blob/master/kernel/sched/sched.h#L534-L640
+
+struct rq
+https://github.com/torvalds/linux/blob/master/kernel/sched/sched.h#L940-L1146
+
+
+
+
