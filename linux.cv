@@ -1,4 +1,4 @@
-kernel data structures
+// kernel data structures
 
 stddef
 https://github.com/torvalds/linux/blob/master/include/linux/stddef.h
@@ -18,9 +18,9 @@ https://github.com/torvalds/linux/blob/master/include/linux/rbtree_types.h
 
 
 
-process managment
+// process managment
 
-strcut task_struct
+task_struct
 https://github.com/torvalds/linux/blob/master/include/linux/sched.h#L746-L1562
 
 
@@ -29,7 +29,7 @@ https://github.com/torvalds/linux/blob/master/include/linux/sched.h#L746-L1562
 
 
 
-kernel scheduing
+// kernel scheduing
 
 struct sched_class
 https://github.com/torvalds/linux/blob/master/kernel/sched/sched.h#L2215-L2277
